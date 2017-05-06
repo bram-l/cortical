@@ -1,6 +1,6 @@
 {
   "name": "cortical",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Promise based wrapper for the Cortical.io Retina API",
   "main": "lin/index.js",
   "scripts": {
@@ -13,7 +13,9 @@
     "url": "https://github.com/bram-l/cortical.git"
   },
   "license": "MIT",
-  "engines" : { "node" : ">=4" },
+  "engines": {
+    "node": ">=4"
+  },
   "dependencies": {
     "request": "^2.79.0"
   },
