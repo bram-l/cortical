@@ -8,6 +8,10 @@
     "cover": "NODE_ENV=test JASMINE_CONFIG_PATH=jasmine.json node ./node_modules/nyc/bin/nyc.js --reporter=lcov node_modules/jasmine/bin/jasmine.js"
   },
   "author": "Bram Loogman <info@bramloogman.nl>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bram-l/cortical.git"
+  },
   "license": "MIT",
   "engines" : { "node" : ">=4" },
   "dependencies": {
